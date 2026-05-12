@@ -200,7 +200,8 @@
           "enabled": true
         }
       ],
-      "id": "prod_001"
+      "id": "prod_001",
+      "numericId": 1
     },
     {
       "id": "prod_002",
@@ -345,7 +346,8 @@
           "priceOverride": 84.99,
           "enabled": false
         }
-      ]
+      ],
+      "numericId": 2
     },
     {
       "id": "prod_003",
@@ -512,7 +514,8 @@
           "priceOverride": null,
           "enabled": false
         }
-      ]
+      ],
+      "numericId": 3
     },
     {
       "id": "prod_004",
@@ -567,7 +570,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 4
     },
     {
       "id": "prod_005",
@@ -643,7 +647,8 @@
           "priceOverride": 39.99,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 5
     },
     {
       "id": "prod_006",
@@ -812,7 +817,8 @@
           "priceOverride": null,
           "enabled": false
         }
-      ]
+      ],
+      "numericId": 6
     },
     {
       "id": "prod_007",
@@ -957,7 +963,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 7
     },
     {
       "id": "prod_009",
@@ -1158,7 +1165,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 9
     },
     {
       "id": "prod_010",
@@ -1303,7 +1311,8 @@
           "priceOverride": 94.99,
           "enabled": false
         }
-      ]
+      ],
+      "numericId": 10
     },
     {
       "id": "prod_011",
@@ -1470,7 +1479,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 11
     },
     {
       "id": "prod_012",
@@ -1615,7 +1625,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 12
     },
     {
       "id": "prod_013",
@@ -1714,7 +1725,8 @@
           "priceOverride": 84.99,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 13
     },
     {
       "id": "prod_014",
@@ -1769,7 +1781,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 14
     },
     {
       "id": "prod_015",
@@ -1937,7 +1950,8 @@
           "priceOverride": null,
           "enabled": false
         }
-      ]
+      ],
+      "numericId": 15
     },
     {
       "id": "prod_016",
@@ -2105,7 +2119,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 16
     },
     {
       "id": "prod_017",
@@ -2180,7 +2195,8 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 17
     },
     {
       "id": "prod_008",
@@ -2245,17 +2261,11 @@
           "priceOverride": null,
           "enabled": true
         }
-      ]
+      ],
+      "numericId": 8
     }
   ],
-  "cart": [
-    {
-      "id": "sMEC-Akjokg",
-      "productId": "prod_002",
-      "variantId": "var_002_03",
-      "quantity": 2
-    }
-  ],
+  "cart": [],
   "orders": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

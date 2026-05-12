@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "server": "json-server --watch db.json --port 3001",
-    "start:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "server": "node ./json-server-patched.mjs db.json --port 3001",
+    "start:all": "concurrently \"npm run dev\" \"node ./json-server-patched.mjs db.json --port 3001\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
