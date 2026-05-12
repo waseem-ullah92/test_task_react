@@ -36,7 +36,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
             </div>
           )}
         </div>
-        {hasItems && <CartSummary products={products as Product[]} />}
+        {hasItems && <CartSummary products={products as Product[]} onClose={onClose} />}
       </div>
     </Drawer>
   )
