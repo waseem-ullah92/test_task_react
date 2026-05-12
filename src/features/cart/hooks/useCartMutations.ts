@@ -35,8 +35,18 @@ export function useCartMutations(products: Product[]) {
       return
     }
 
+    const existingItem = cartItems.find(
+      (i) => i.productId === productId && i.variantId === variantId
+    )
+
     addToCartMutation.mutate(
-      { productId, variantId, quantity },
+      {
+        productId,
+        variantId,
+        quantity,
+        existingId: existingItem?.id,
+        baseQuantity: existingItem?.quantity ?? 0,
+      },
       { onSuccess: () => toast.success(`${product.title} added to cart`) }
     )
   }

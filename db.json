@@ -1,38 +1,206 @@
 {
   "products": [
     {
-      "id": "prod_001",
-      "title": "Classic Crew Tee",
+      "title": "Classic Crew Tee update",
       "description": "A timeless crew-neck t-shirt crafted from 100% organic cotton. Lightweight, breathable, and designed to last through countless washes while keeping its shape.",
       "category": "Clothing",
       "basePrice": 29.99,
-      "status": "active",
       "images": [
-        "https://picsum.photos/seed/tee-white/600/600",
-        "https://picsum.photos/seed/tee-back/600/600",
-        "https://picsum.photos/seed/tee-detail/600/600"
+        "https://loremflickr.com/600/600/tshirt,white,fashion?lock=101",
+        "https://loremflickr.com/600/600/tshirt,crew,cotton?lock=102",
+        "https://loremflickr.com/600/600/tshirt,model,clothing?lock=103"
       ],
+      "status": "active",
       "variantTypes": [
-        { "id": "vt_001_1", "name": "Size", "values": ["XS", "S", "M", "L", "XL"] },
-        { "id": "vt_001_2", "name": "Color", "values": ["White", "Black", "Navy"] }
+        {
+          "id": "vt_001_1",
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "id": "vt_001_2",
+          "name": "Color",
+          "values": [
+            "White",
+            "Black",
+            "Navy"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_001_01", "sku": "classic-crew-tee-xs-white", "options": { "Size": "XS", "Color": "White" }, "stock": 12, "priceOverride": null, "enabled": true },
-        { "id": "var_001_02", "sku": "classic-crew-tee-xs-black", "options": { "Size": "XS", "Color": "Black" }, "stock": 8, "priceOverride": null, "enabled": true },
-        { "id": "var_001_03", "sku": "classic-crew-tee-xs-navy", "options": { "Size": "XS", "Color": "Navy" }, "stock": 0, "priceOverride": null, "enabled": true },
-        { "id": "var_001_04", "sku": "classic-crew-tee-s-white", "options": { "Size": "S", "Color": "White" }, "stock": 20, "priceOverride": null, "enabled": true },
-        { "id": "var_001_05", "sku": "classic-crew-tee-s-black", "options": { "Size": "S", "Color": "Black" }, "stock": 15, "priceOverride": null, "enabled": true },
-        { "id": "var_001_06", "sku": "classic-crew-tee-s-navy", "options": { "Size": "S", "Color": "Navy" }, "stock": 10, "priceOverride": null, "enabled": true },
-        { "id": "var_001_07", "sku": "classic-crew-tee-m-white", "options": { "Size": "M", "Color": "White" }, "stock": 25, "priceOverride": null, "enabled": true },
-        { "id": "var_001_08", "sku": "classic-crew-tee-m-black", "options": { "Size": "M", "Color": "Black" }, "stock": 30, "priceOverride": null, "enabled": true },
-        { "id": "var_001_09", "sku": "classic-crew-tee-m-navy", "options": { "Size": "M", "Color": "Navy" }, "stock": 18, "priceOverride": null, "enabled": true },
-        { "id": "var_001_10", "sku": "classic-crew-tee-l-white", "options": { "Size": "L", "Color": "White" }, "stock": 22, "priceOverride": null, "enabled": true },
-        { "id": "var_001_11", "sku": "classic-crew-tee-l-black", "options": { "Size": "L", "Color": "Black" }, "stock": 28, "priceOverride": null, "enabled": true },
-        { "id": "var_001_12", "sku": "classic-crew-tee-l-navy", "options": { "Size": "L", "Color": "Navy" }, "stock": 5, "priceOverride": null, "enabled": true },
-        { "id": "var_001_13", "sku": "classic-crew-tee-xl-white", "options": { "Size": "XL", "Color": "White" }, "stock": 14, "priceOverride": null, "enabled": true },
-        { "id": "var_001_14", "sku": "classic-crew-tee-xl-black", "options": { "Size": "XL", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": false },
-        { "id": "var_001_15", "sku": "classic-crew-tee-xl-navy", "options": { "Size": "XL", "Color": "Navy" }, "stock": 7, "priceOverride": null, "enabled": true }
-      ]
+        {
+          "id": "var_001_01",
+          "sku": "classic-crew-tee-xs-white",
+          "options": {
+            "Size": "XS",
+            "Color": "White"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_02",
+          "sku": "classic-crew-tee-xs-black",
+          "options": {
+            "Size": "XS",
+            "Color": "Black"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_03",
+          "sku": "classic-crew-tee-xs-navy",
+          "options": {
+            "Size": "XS",
+            "Color": "Navy"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_04",
+          "sku": "classic-crew-tee-s-white",
+          "options": {
+            "Size": "S",
+            "Color": "White"
+          },
+          "stock": 20,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_05",
+          "sku": "classic-crew-tee-s-black",
+          "options": {
+            "Size": "S",
+            "Color": "Black"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_06",
+          "sku": "classic-crew-tee-s-navy",
+          "options": {
+            "Size": "S",
+            "Color": "Navy"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_07",
+          "sku": "classic-crew-tee-m-white",
+          "options": {
+            "Size": "M",
+            "Color": "White"
+          },
+          "stock": 25,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_08",
+          "sku": "classic-crew-tee-m-black",
+          "options": {
+            "Size": "M",
+            "Color": "Black"
+          },
+          "stock": 30,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_09",
+          "sku": "classic-crew-tee-m-navy",
+          "options": {
+            "Size": "M",
+            "Color": "Navy"
+          },
+          "stock": 18,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_10",
+          "sku": "classic-crew-tee-l-white",
+          "options": {
+            "Size": "L",
+            "Color": "White"
+          },
+          "stock": 22,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_11",
+          "sku": "classic-crew-tee-l-black",
+          "options": {
+            "Size": "L",
+            "Color": "Black"
+          },
+          "stock": 28,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_12",
+          "sku": "classic-crew-tee-l-navy",
+          "options": {
+            "Size": "L",
+            "Color": "Navy"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_13",
+          "sku": "classic-crew-tee-xl-white",
+          "options": {
+            "Size": "XL",
+            "Color": "White"
+          },
+          "stock": 14,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_001_14",
+          "sku": "classic-crew-tee-xl-black",
+          "options": {
+            "Size": "XL",
+            "Color": "Black"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": false
+        },
+        {
+          "id": "var_001_15",
+          "sku": "classic-crew-tee-xl-navy",
+          "options": {
+            "Size": "XL",
+            "Color": "Navy"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ],
+      "id": "prod_001"
     },
     {
       "id": "prod_002",
@@ -42,24 +210,141 @@
       "basePrice": 74.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/hoodie-grey/600/600",
-        "https://picsum.photos/seed/hoodie-back/600/600"
+        "https://loremflickr.com/600/600/hoodie,sweatshirt,fashion?lock=201",
+        "https://loremflickr.com/600/600/hoodie,zip,clothing?lock=202"
       ],
       "variantTypes": [
-        { "id": "vt_002_1", "name": "Size", "values": ["S", "M", "L", "XL", "XXL"] },
-        { "id": "vt_002_2", "name": "Color", "values": ["Charcoal", "Forest Green"] }
+        {
+          "id": "vt_002_1",
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        },
+        {
+          "id": "vt_002_2",
+          "name": "Color",
+          "values": [
+            "Charcoal",
+            "Forest Green"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_002_01", "sku": "urban-zip-hoodie-s-charcoal", "options": { "Size": "S", "Color": "Charcoal" }, "stock": 10, "priceOverride": null, "enabled": true },
-        { "id": "var_002_02", "sku": "urban-zip-hoodie-s-forest-green", "options": { "Size": "S", "Color": "Forest Green" }, "stock": 6, "priceOverride": null, "enabled": true },
-        { "id": "var_002_03", "sku": "urban-zip-hoodie-m-charcoal", "options": { "Size": "M", "Color": "Charcoal" }, "stock": 14, "priceOverride": null, "enabled": true },
-        { "id": "var_002_04", "sku": "urban-zip-hoodie-m-forest-green", "options": { "Size": "M", "Color": "Forest Green" }, "stock": 9, "priceOverride": null, "enabled": true },
-        { "id": "var_002_05", "sku": "urban-zip-hoodie-l-charcoal", "options": { "Size": "L", "Color": "Charcoal" }, "stock": 20, "priceOverride": null, "enabled": true },
-        { "id": "var_002_06", "sku": "urban-zip-hoodie-l-forest-green", "options": { "Size": "L", "Color": "Forest Green" }, "stock": 0, "priceOverride": null, "enabled": true },
-        { "id": "var_002_07", "sku": "urban-zip-hoodie-xl-charcoal", "options": { "Size": "XL", "Color": "Charcoal" }, "stock": 12, "priceOverride": 79.99, "enabled": true },
-        { "id": "var_002_08", "sku": "urban-zip-hoodie-xl-forest-green", "options": { "Size": "XL", "Color": "Forest Green" }, "stock": 4, "priceOverride": 79.99, "enabled": true },
-        { "id": "var_002_09", "sku": "urban-zip-hoodie-xxl-charcoal", "options": { "Size": "XXL", "Color": "Charcoal" }, "stock": 3, "priceOverride": 84.99, "enabled": true },
-        { "id": "var_002_10", "sku": "urban-zip-hoodie-xxl-forest-green", "options": { "Size": "XXL", "Color": "Forest Green" }, "stock": 0, "priceOverride": 84.99, "enabled": false }
+        {
+          "id": "var_002_01",
+          "sku": "urban-zip-hoodie-s-charcoal",
+          "options": {
+            "Size": "S",
+            "Color": "Charcoal"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_02",
+          "sku": "urban-zip-hoodie-s-forest-green",
+          "options": {
+            "Size": "S",
+            "Color": "Forest Green"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_03",
+          "sku": "urban-zip-hoodie-m-charcoal",
+          "options": {
+            "Size": "M",
+            "Color": "Charcoal"
+          },
+          "stock": 14,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_04",
+          "sku": "urban-zip-hoodie-m-forest-green",
+          "options": {
+            "Size": "M",
+            "Color": "Forest Green"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_05",
+          "sku": "urban-zip-hoodie-l-charcoal",
+          "options": {
+            "Size": "L",
+            "Color": "Charcoal"
+          },
+          "stock": 20,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_06",
+          "sku": "urban-zip-hoodie-l-forest-green",
+          "options": {
+            "Size": "L",
+            "Color": "Forest Green"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_002_07",
+          "sku": "urban-zip-hoodie-xl-charcoal",
+          "options": {
+            "Size": "XL",
+            "Color": "Charcoal"
+          },
+          "stock": 12,
+          "priceOverride": 79.99,
+          "enabled": true
+        },
+        {
+          "id": "var_002_08",
+          "sku": "urban-zip-hoodie-xl-forest-green",
+          "options": {
+            "Size": "XL",
+            "Color": "Forest Green"
+          },
+          "stock": 4,
+          "priceOverride": 79.99,
+          "enabled": true
+        },
+        {
+          "id": "var_002_09",
+          "sku": "urban-zip-hoodie-xxl-charcoal",
+          "options": {
+            "Size": "XXL",
+            "Color": "Charcoal"
+          },
+          "stock": 3,
+          "priceOverride": 84.99,
+          "enabled": true
+        },
+        {
+          "id": "var_002_10",
+          "sku": "urban-zip-hoodie-xxl-forest-green",
+          "options": {
+            "Size": "XXL",
+            "Color": "Forest Green"
+          },
+          "stock": 0,
+          "priceOverride": 84.99,
+          "enabled": false
+        }
       ]
     },
     {
@@ -70,26 +355,163 @@
       "basePrice": 59.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/chino-tan/600/600",
-        "https://picsum.photos/seed/chino-navy/600/600"
+        "https://loremflickr.com/600/600/chino,trousers,fashion?lock=301",
+        "https://loremflickr.com/600/600/pants,slim,clothing?lock=302"
       ],
       "variantTypes": [
-        { "id": "vt_003_1", "name": "Waist", "values": ["30", "32", "34", "36"] },
-        { "id": "vt_003_2", "name": "Color", "values": ["Tan", "Navy", "Olive"] }
+        {
+          "id": "vt_003_1",
+          "name": "Waist",
+          "values": [
+            "30",
+            "32",
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "vt_003_2",
+          "name": "Color",
+          "values": [
+            "Tan",
+            "Navy",
+            "Olive"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_003_01", "sku": "slim-chino-30-tan", "options": { "Waist": "30", "Color": "Tan" }, "stock": 8, "priceOverride": null, "enabled": true },
-        { "id": "var_003_02", "sku": "slim-chino-30-navy", "options": { "Waist": "30", "Color": "Navy" }, "stock": 6, "priceOverride": null, "enabled": true },
-        { "id": "var_003_03", "sku": "slim-chino-30-olive", "options": { "Waist": "30", "Color": "Olive" }, "stock": 4, "priceOverride": null, "enabled": true },
-        { "id": "var_003_04", "sku": "slim-chino-32-tan", "options": { "Waist": "32", "Color": "Tan" }, "stock": 15, "priceOverride": null, "enabled": true },
-        { "id": "var_003_05", "sku": "slim-chino-32-navy", "options": { "Waist": "32", "Color": "Navy" }, "stock": 18, "priceOverride": null, "enabled": true },
-        { "id": "var_003_06", "sku": "slim-chino-32-olive", "options": { "Waist": "32", "Color": "Olive" }, "stock": 11, "priceOverride": null, "enabled": true },
-        { "id": "var_003_07", "sku": "slim-chino-34-tan", "options": { "Waist": "34", "Color": "Tan" }, "stock": 12, "priceOverride": null, "enabled": true },
-        { "id": "var_003_08", "sku": "slim-chino-34-navy", "options": { "Waist": "34", "Color": "Navy" }, "stock": 9, "priceOverride": null, "enabled": true },
-        { "id": "var_003_09", "sku": "slim-chino-34-olive", "options": { "Waist": "34", "Color": "Olive" }, "stock": 0, "priceOverride": null, "enabled": true },
-        { "id": "var_003_10", "sku": "slim-chino-36-tan", "options": { "Waist": "36", "Color": "Tan" }, "stock": 7, "priceOverride": null, "enabled": true },
-        { "id": "var_003_11", "sku": "slim-chino-36-navy", "options": { "Waist": "36", "Color": "Navy" }, "stock": 5, "priceOverride": null, "enabled": true },
-        { "id": "var_003_12", "sku": "slim-chino-36-olive", "options": { "Waist": "36", "Color": "Olive" }, "stock": 0, "priceOverride": null, "enabled": false }
+        {
+          "id": "var_003_01",
+          "sku": "slim-chino-30-tan",
+          "options": {
+            "Waist": "30",
+            "Color": "Tan"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_02",
+          "sku": "slim-chino-30-navy",
+          "options": {
+            "Waist": "30",
+            "Color": "Navy"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_03",
+          "sku": "slim-chino-30-olive",
+          "options": {
+            "Waist": "30",
+            "Color": "Olive"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_04",
+          "sku": "slim-chino-32-tan",
+          "options": {
+            "Waist": "32",
+            "Color": "Tan"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_05",
+          "sku": "slim-chino-32-navy",
+          "options": {
+            "Waist": "32",
+            "Color": "Navy"
+          },
+          "stock": 18,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_06",
+          "sku": "slim-chino-32-olive",
+          "options": {
+            "Waist": "32",
+            "Color": "Olive"
+          },
+          "stock": 11,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_07",
+          "sku": "slim-chino-34-tan",
+          "options": {
+            "Waist": "34",
+            "Color": "Tan"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_08",
+          "sku": "slim-chino-34-navy",
+          "options": {
+            "Waist": "34",
+            "Color": "Navy"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_09",
+          "sku": "slim-chino-34-olive",
+          "options": {
+            "Waist": "34",
+            "Color": "Olive"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_10",
+          "sku": "slim-chino-36-tan",
+          "options": {
+            "Waist": "36",
+            "Color": "Tan"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_11",
+          "sku": "slim-chino-36-navy",
+          "options": {
+            "Waist": "36",
+            "Color": "Navy"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_003_12",
+          "sku": "slim-chino-36-olive",
+          "options": {
+            "Waist": "36",
+            "Color": "Olive"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": false
+        }
       ]
     },
     {
@@ -100,16 +522,51 @@
       "basePrice": 49.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/wallet-brown/600/600",
-        "https://picsum.photos/seed/wallet-open/600/600"
+        "https://loremflickr.com/600/600/leather,wallet,bifold?lock=401",
+        "https://loremflickr.com/600/600/wallet,cards,leather?lock=402"
       ],
       "variantTypes": [
-        { "id": "vt_004_1", "name": "Color", "values": ["Cognac", "Black", "Dark Brown"] }
+        {
+          "id": "vt_004_1",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Black",
+            "Dark Brown"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_004_01", "sku": "leather-bifold-wallet-cognac", "options": { "Color": "Cognac" }, "stock": 22, "priceOverride": null, "enabled": true },
-        { "id": "var_004_02", "sku": "leather-bifold-wallet-black", "options": { "Color": "Black" }, "stock": 30, "priceOverride": null, "enabled": true },
-        { "id": "var_004_03", "sku": "leather-bifold-wallet-dark-brown", "options": { "Color": "Dark Brown" }, "stock": 0, "priceOverride": null, "enabled": true }
+        {
+          "id": "var_004_01",
+          "sku": "leather-bifold-wallet-cognac",
+          "options": {
+            "Color": "Cognac"
+          },
+          "stock": 22,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_004_02",
+          "sku": "leather-bifold-wallet-black",
+          "options": {
+            "Color": "Black"
+          },
+          "stock": 30,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_004_03",
+          "sku": "leather-bifold-wallet-dark-brown",
+          "options": {
+            "Color": "Dark Brown"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        }
       ]
     },
     {
@@ -120,18 +577,72 @@
       "basePrice": 34.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/tote-natural/600/600",
-        "https://picsum.photos/seed/tote-detail/600/600"
+        "https://loremflickr.com/600/600/tote,bag,canvas?lock=501",
+        "https://loremflickr.com/600/600/canvas,bag,shopping?lock=502"
       ],
       "variantTypes": [
-        { "id": "vt_005_1", "name": "Size", "values": ["Standard", "Large"] },
-        { "id": "vt_005_2", "name": "Color", "values": ["Natural", "Black"] }
+        {
+          "id": "vt_005_1",
+          "name": "Size",
+          "values": [
+            "Standard",
+            "Large"
+          ]
+        },
+        {
+          "id": "vt_005_2",
+          "name": "Color",
+          "values": [
+            "Natural",
+            "Black"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_005_01", "sku": "canvas-tote-standard-natural", "options": { "Size": "Standard", "Color": "Natural" }, "stock": 40, "priceOverride": null, "enabled": true },
-        { "id": "var_005_02", "sku": "canvas-tote-standard-black", "options": { "Size": "Standard", "Color": "Black" }, "stock": 35, "priceOverride": null, "enabled": true },
-        { "id": "var_005_03", "sku": "canvas-tote-large-natural", "options": { "Size": "Large", "Color": "Natural" }, "stock": 20, "priceOverride": 39.99, "enabled": true },
-        { "id": "var_005_04", "sku": "canvas-tote-large-black", "options": { "Size": "Large", "Color": "Black" }, "stock": 3, "priceOverride": 39.99, "enabled": true }
+        {
+          "id": "var_005_01",
+          "sku": "canvas-tote-standard-natural",
+          "options": {
+            "Size": "Standard",
+            "Color": "Natural"
+          },
+          "stock": 40,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_005_02",
+          "sku": "canvas-tote-standard-black",
+          "options": {
+            "Size": "Standard",
+            "Color": "Black"
+          },
+          "stock": 35,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_005_03",
+          "sku": "canvas-tote-large-natural",
+          "options": {
+            "Size": "Large",
+            "Color": "Natural"
+          },
+          "stock": 20,
+          "priceOverride": 39.99,
+          "enabled": true
+        },
+        {
+          "id": "var_005_04",
+          "sku": "canvas-tote-large-black",
+          "options": {
+            "Size": "Large",
+            "Color": "Black"
+          },
+          "stock": 3,
+          "priceOverride": 39.99,
+          "enabled": true
+        }
       ]
     },
     {
@@ -142,27 +653,165 @@
       "basePrice": 119.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/sneaker-white/600/600",
-        "https://picsum.photos/seed/sneaker-side/600/600",
-        "https://picsum.photos/seed/sneaker-sole/600/600"
+        "https://loremflickr.com/600/600/sneakers,leather,white?lock=601",
+        "https://loremflickr.com/600/600/sneakers,shoes,fashion?lock=602",
+        "https://loremflickr.com/600/600/lowtop,sneakers,footwear?lock=603"
       ],
       "variantTypes": [
-        { "id": "vt_006_1", "name": "Size", "values": ["7", "8", "9", "10", "11", "12"] },
-        { "id": "vt_006_2", "name": "Color", "values": ["White", "Black"] }
+        {
+          "id": "vt_006_1",
+          "name": "Size",
+          "values": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        },
+        {
+          "id": "vt_006_2",
+          "name": "Color",
+          "values": [
+            "White",
+            "Black"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_006_01", "sku": "low-top-leather-7-white", "options": { "Size": "7", "Color": "White" }, "stock": 5, "priceOverride": null, "enabled": true },
-        { "id": "var_006_02", "sku": "low-top-leather-7-black", "options": { "Size": "7", "Color": "Black" }, "stock": 4, "priceOverride": null, "enabled": true },
-        { "id": "var_006_03", "sku": "low-top-leather-8-white", "options": { "Size": "8", "Color": "White" }, "stock": 8, "priceOverride": null, "enabled": true },
-        { "id": "var_006_04", "sku": "low-top-leather-8-black", "options": { "Size": "8", "Color": "Black" }, "stock": 7, "priceOverride": null, "enabled": true },
-        { "id": "var_006_05", "sku": "low-top-leather-9-white", "options": { "Size": "9", "Color": "White" }, "stock": 12, "priceOverride": null, "enabled": true },
-        { "id": "var_006_06", "sku": "low-top-leather-9-black", "options": { "Size": "9", "Color": "Black" }, "stock": 10, "priceOverride": null, "enabled": true },
-        { "id": "var_006_07", "sku": "low-top-leather-10-white", "options": { "Size": "10", "Color": "White" }, "stock": 15, "priceOverride": null, "enabled": true },
-        { "id": "var_006_08", "sku": "low-top-leather-10-black", "options": { "Size": "10", "Color": "Black" }, "stock": 13, "priceOverride": null, "enabled": true },
-        { "id": "var_006_09", "sku": "low-top-leather-11-white", "options": { "Size": "11", "Color": "White" }, "stock": 6, "priceOverride": null, "enabled": true },
-        { "id": "var_006_10", "sku": "low-top-leather-11-black", "options": { "Size": "11", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": true },
-        { "id": "var_006_11", "sku": "low-top-leather-12-white", "options": { "Size": "12", "Color": "White" }, "stock": 3, "priceOverride": null, "enabled": true },
-        { "id": "var_006_12", "sku": "low-top-leather-12-black", "options": { "Size": "12", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": false }
+        {
+          "id": "var_006_01",
+          "sku": "low-top-leather-7-white",
+          "options": {
+            "Size": "7",
+            "Color": "White"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_02",
+          "sku": "low-top-leather-7-black",
+          "options": {
+            "Size": "7",
+            "Color": "Black"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_03",
+          "sku": "low-top-leather-8-white",
+          "options": {
+            "Size": "8",
+            "Color": "White"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_04",
+          "sku": "low-top-leather-8-black",
+          "options": {
+            "Size": "8",
+            "Color": "Black"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_05",
+          "sku": "low-top-leather-9-white",
+          "options": {
+            "Size": "9",
+            "Color": "White"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_06",
+          "sku": "low-top-leather-9-black",
+          "options": {
+            "Size": "9",
+            "Color": "Black"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_07",
+          "sku": "low-top-leather-10-white",
+          "options": {
+            "Size": "10",
+            "Color": "White"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_08",
+          "sku": "low-top-leather-10-black",
+          "options": {
+            "Size": "10",
+            "Color": "Black"
+          },
+          "stock": 13,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_09",
+          "sku": "low-top-leather-11-white",
+          "options": {
+            "Size": "11",
+            "Color": "White"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_10",
+          "sku": "low-top-leather-11-black",
+          "options": {
+            "Size": "11",
+            "Color": "Black"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_11",
+          "sku": "low-top-leather-12-white",
+          "options": {
+            "Size": "12",
+            "Color": "White"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_006_12",
+          "sku": "low-top-leather-12-black",
+          "options": {
+            "Size": "12",
+            "Color": "Black"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": false
+        }
       ]
     },
     {
@@ -173,24 +822,1364 @@
       "basePrice": 189.99,
       "status": "active",
       "images": [
-        "https://picsum.photos/seed/chelsea-camel/600/600",
-        "https://picsum.photos/seed/chelsea-side/600/600"
+        "https://loremflickr.com/600/600/ankle,boots,fashion?lock=701",
+        "https://loremflickr.com/600/600/boots,leather,footwear?lock=702"
       ],
       "variantTypes": [
-        { "id": "vt_007_1", "name": "Size", "values": ["7", "8", "9", "10", "11"] },
-        { "id": "vt_007_2", "name": "Color", "values": ["Camel", "Black"] }
+        {
+          "id": "vt_007_1",
+          "name": "Size",
+          "values": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ]
+        },
+        {
+          "id": "vt_007_2",
+          "name": "Color",
+          "values": [
+            "Camel",
+            "Black"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_007_01", "sku": "wool-chelsea-7-camel", "options": { "Size": "7", "Color": "Camel" }, "stock": 3, "priceOverride": null, "enabled": true },
-        { "id": "var_007_02", "sku": "wool-chelsea-7-black", "options": { "Size": "7", "Color": "Black" }, "stock": 2, "priceOverride": null, "enabled": true },
-        { "id": "var_007_03", "sku": "wool-chelsea-8-camel", "options": { "Size": "8", "Color": "Camel" }, "stock": 6, "priceOverride": null, "enabled": true },
-        { "id": "var_007_04", "sku": "wool-chelsea-8-black", "options": { "Size": "8", "Color": "Black" }, "stock": 5, "priceOverride": null, "enabled": true },
-        { "id": "var_007_05", "sku": "wool-chelsea-9-camel", "options": { "Size": "9", "Color": "Camel" }, "stock": 8, "priceOverride": null, "enabled": true },
-        { "id": "var_007_06", "sku": "wool-chelsea-9-black", "options": { "Size": "9", "Color": "Black" }, "stock": 7, "priceOverride": null, "enabled": true },
-        { "id": "var_007_07", "sku": "wool-chelsea-10-camel", "options": { "Size": "10", "Color": "Camel" }, "stock": 10, "priceOverride": null, "enabled": true },
-        { "id": "var_007_08", "sku": "wool-chelsea-10-black", "options": { "Size": "10", "Color": "Black" }, "stock": 9, "priceOverride": null, "enabled": true },
-        { "id": "var_007_09", "sku": "wool-chelsea-11-camel", "options": { "Size": "11", "Color": "Camel" }, "stock": 0, "priceOverride": null, "enabled": true },
-        { "id": "var_007_10", "sku": "wool-chelsea-11-black", "options": { "Size": "11", "Color": "Black" }, "stock": 4, "priceOverride": null, "enabled": true }
+        {
+          "id": "var_007_01",
+          "sku": "wool-chelsea-7-camel",
+          "options": {
+            "Size": "7",
+            "Color": "Camel"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_02",
+          "sku": "wool-chelsea-7-black",
+          "options": {
+            "Size": "7",
+            "Color": "Black"
+          },
+          "stock": 2,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_03",
+          "sku": "wool-chelsea-8-camel",
+          "options": {
+            "Size": "8",
+            "Color": "Camel"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_04",
+          "sku": "wool-chelsea-8-black",
+          "options": {
+            "Size": "8",
+            "Color": "Black"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_05",
+          "sku": "wool-chelsea-9-camel",
+          "options": {
+            "Size": "9",
+            "Color": "Camel"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_06",
+          "sku": "wool-chelsea-9-black",
+          "options": {
+            "Size": "9",
+            "Color": "Black"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_07",
+          "sku": "wool-chelsea-10-camel",
+          "options": {
+            "Size": "10",
+            "Color": "Camel"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_08",
+          "sku": "wool-chelsea-10-black",
+          "options": {
+            "Size": "10",
+            "Color": "Black"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_09",
+          "sku": "wool-chelsea-11-camel",
+          "options": {
+            "Size": "11",
+            "Color": "Camel"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_007_10",
+          "sku": "wool-chelsea-11-black",
+          "options": {
+            "Size": "11",
+            "Color": "Black"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_009",
+      "title": "Graphic Print Tee",
+      "description": "Soft 100% cotton tee featuring a bold hand-drawn graphic print. Pre-washed for a lived-in feel right out of the box. A statement piece for everyday wear.",
+      "category": "Clothing",
+      "basePrice": 24.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/graphic,tshirt,streetwear?lock=901",
+        "https://loremflickr.com/600/600/printed,tshirt,fashion?lock=902"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_009_1",
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "id": "vt_009_2",
+          "name": "Color",
+          "values": [
+            "White",
+            "Sand",
+            "Washed Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_009_01",
+          "sku": "graphic-tee-xs-white",
+          "options": {
+            "Size": "XS",
+            "Color": "White"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_02",
+          "sku": "graphic-tee-xs-sand",
+          "options": {
+            "Size": "XS",
+            "Color": "Sand"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_03",
+          "sku": "graphic-tee-xs-washed-black",
+          "options": {
+            "Size": "XS",
+            "Color": "Washed Black"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_04",
+          "sku": "graphic-tee-s-white",
+          "options": {
+            "Size": "S",
+            "Color": "White"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_05",
+          "sku": "graphic-tee-s-sand",
+          "options": {
+            "Size": "S",
+            "Color": "Sand"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_06",
+          "sku": "graphic-tee-s-washed-black",
+          "options": {
+            "Size": "S",
+            "Color": "Washed Black"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_07",
+          "sku": "graphic-tee-m-white",
+          "options": {
+            "Size": "M",
+            "Color": "White"
+          },
+          "stock": 20,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_08",
+          "sku": "graphic-tee-m-sand",
+          "options": {
+            "Size": "M",
+            "Color": "Sand"
+          },
+          "stock": 18,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_09",
+          "sku": "graphic-tee-m-washed-black",
+          "options": {
+            "Size": "M",
+            "Color": "Washed Black"
+          },
+          "stock": 14,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_10",
+          "sku": "graphic-tee-l-white",
+          "options": {
+            "Size": "L",
+            "Color": "White"
+          },
+          "stock": 16,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_11",
+          "sku": "graphic-tee-l-sand",
+          "options": {
+            "Size": "L",
+            "Color": "Sand"
+          },
+          "stock": 11,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_12",
+          "sku": "graphic-tee-l-washed-black",
+          "options": {
+            "Size": "L",
+            "Color": "Washed Black"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_13",
+          "sku": "graphic-tee-xl-white",
+          "options": {
+            "Size": "XL",
+            "Color": "White"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_14",
+          "sku": "graphic-tee-xl-sand",
+          "options": {
+            "Size": "XL",
+            "Color": "Sand"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_009_15",
+          "sku": "graphic-tee-xl-washed-black",
+          "options": {
+            "Size": "XL",
+            "Color": "Washed Black"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_010",
+      "title": "Oversized Denim Jacket",
+      "description": "A vintage-inspired oversized denim jacket with a boxy silhouette, chest pockets, and a button-front closure. Layer it over anything for instant cool.",
+      "category": "Clothing",
+      "basePrice": 89.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/denim,jacket,fashion?lock=1001",
+        "https://loremflickr.com/600/600/jeans,jacket,clothing?lock=1002"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_010_1",
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "id": "vt_010_2",
+          "name": "Wash",
+          "values": [
+            "Light Wash",
+            "Dark Wash"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_010_01",
+          "sku": "denim-jacket-xs-light",
+          "options": {
+            "Size": "XS",
+            "Wash": "Light Wash"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_02",
+          "sku": "denim-jacket-xs-dark",
+          "options": {
+            "Size": "XS",
+            "Wash": "Dark Wash"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_03",
+          "sku": "denim-jacket-s-light",
+          "options": {
+            "Size": "S",
+            "Wash": "Light Wash"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_04",
+          "sku": "denim-jacket-s-dark",
+          "options": {
+            "Size": "S",
+            "Wash": "Dark Wash"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_05",
+          "sku": "denim-jacket-m-light",
+          "options": {
+            "Size": "M",
+            "Wash": "Light Wash"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_06",
+          "sku": "denim-jacket-m-dark",
+          "options": {
+            "Size": "M",
+            "Wash": "Dark Wash"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_07",
+          "sku": "denim-jacket-l-light",
+          "options": {
+            "Size": "L",
+            "Wash": "Light Wash"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_08",
+          "sku": "denim-jacket-l-dark",
+          "options": {
+            "Size": "L",
+            "Wash": "Dark Wash"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_010_09",
+          "sku": "denim-jacket-xl-light",
+          "options": {
+            "Size": "XL",
+            "Wash": "Light Wash"
+          },
+          "stock": 3,
+          "priceOverride": 94.99,
+          "enabled": true
+        },
+        {
+          "id": "var_010_10",
+          "sku": "denim-jacket-xl-dark",
+          "options": {
+            "Size": "XL",
+            "Wash": "Dark Wash"
+          },
+          "stock": 0,
+          "priceOverride": 94.99,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "prod_011",
+      "title": "Linen Button-Up Shirt",
+      "description": "A breathable summer shirt woven from 100% European linen. Relaxed fit with a spread collar and mother-of-pearl buttons. Gets better with every wash.",
+      "category": "Clothing",
+      "basePrice": 54.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/linen,shirt,fashion?lock=1101",
+        "https://loremflickr.com/600/600/shirt,buttonup,summer?lock=1102"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_011_1",
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "id": "vt_011_2",
+          "name": "Color",
+          "values": [
+            "Ecru",
+            "Sky Blue",
+            "Sage"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_011_01",
+          "sku": "linen-shirt-s-ecru",
+          "options": {
+            "Size": "S",
+            "Color": "Ecru"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_02",
+          "sku": "linen-shirt-s-sky-blue",
+          "options": {
+            "Size": "S",
+            "Color": "Sky Blue"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_03",
+          "sku": "linen-shirt-s-sage",
+          "options": {
+            "Size": "S",
+            "Color": "Sage"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_04",
+          "sku": "linen-shirt-m-ecru",
+          "options": {
+            "Size": "M",
+            "Color": "Ecru"
+          },
+          "stock": 14,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_05",
+          "sku": "linen-shirt-m-sky-blue",
+          "options": {
+            "Size": "M",
+            "Color": "Sky Blue"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_06",
+          "sku": "linen-shirt-m-sage",
+          "options": {
+            "Size": "M",
+            "Color": "Sage"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_07",
+          "sku": "linen-shirt-l-ecru",
+          "options": {
+            "Size": "L",
+            "Color": "Ecru"
+          },
+          "stock": 11,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_08",
+          "sku": "linen-shirt-l-sky-blue",
+          "options": {
+            "Size": "L",
+            "Color": "Sky Blue"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_09",
+          "sku": "linen-shirt-l-sage",
+          "options": {
+            "Size": "L",
+            "Color": "Sage"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_10",
+          "sku": "linen-shirt-xl-ecru",
+          "options": {
+            "Size": "XL",
+            "Color": "Ecru"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_11",
+          "sku": "linen-shirt-xl-sky-blue",
+          "options": {
+            "Size": "XL",
+            "Color": "Sky Blue"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_011_12",
+          "sku": "linen-shirt-xl-sage",
+          "options": {
+            "Size": "XL",
+            "Color": "Sage"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_012",
+      "title": "Woven Leather Belt",
+      "description": "Handcrafted woven belt made from top-grain vegetable-tanned leather. Reversible design with a matte silver buckle — one belt, two looks.",
+      "category": "Accessories",
+      "basePrice": 44.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/leather,belt,accessory?lock=1201",
+        "https://loremflickr.com/600/600/belt,buckle,fashion?lock=1202"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_012_1",
+          "name": "Size",
+          "values": [
+            "30\"",
+            "32\"",
+            "34\"",
+            "36\"",
+            "38\""
+          ]
+        },
+        {
+          "id": "vt_012_2",
+          "name": "Color",
+          "values": [
+            "Tan",
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_012_01",
+          "sku": "leather-belt-30-tan",
+          "options": {
+            "Size": "30\"",
+            "Color": "Tan"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_02",
+          "sku": "leather-belt-30-black",
+          "options": {
+            "Size": "30\"",
+            "Color": "Black"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_03",
+          "sku": "leather-belt-32-tan",
+          "options": {
+            "Size": "32\"",
+            "Color": "Tan"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_04",
+          "sku": "leather-belt-32-black",
+          "options": {
+            "Size": "32\"",
+            "Color": "Black"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_05",
+          "sku": "leather-belt-34-tan",
+          "options": {
+            "Size": "34\"",
+            "Color": "Tan"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_06",
+          "sku": "leather-belt-34-black",
+          "options": {
+            "Size": "34\"",
+            "Color": "Black"
+          },
+          "stock": 11,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_07",
+          "sku": "leather-belt-36-tan",
+          "options": {
+            "Size": "36\"",
+            "Color": "Tan"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_08",
+          "sku": "leather-belt-36-black",
+          "options": {
+            "Size": "36\"",
+            "Color": "Black"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_09",
+          "sku": "leather-belt-38-tan",
+          "options": {
+            "Size": "38\"",
+            "Color": "Tan"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_012_10",
+          "sku": "leather-belt-38-black",
+          "options": {
+            "Size": "38\"",
+            "Color": "Black"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_013",
+      "title": "Polarized Aviator Sunglasses",
+      "description": "Classic aviator-style sunglasses with polarized TAC lenses that eliminate 99% of glare. Lightweight stainless steel frame with spring hinges for all-day comfort.",
+      "category": "Accessories",
+      "basePrice": 79.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/sunglasses,aviator,fashion?lock=1301",
+        "https://loremflickr.com/600/600/sunglasses,polarized,eyewear?lock=1302"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_013_1",
+          "name": "Lens Color",
+          "values": [
+            "Brown",
+            "Green",
+            "Blue Mirror"
+          ]
+        },
+        {
+          "id": "vt_013_2",
+          "name": "Frame",
+          "values": [
+            "Gold",
+            "Silver"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_013_01",
+          "sku": "aviator-brown-gold",
+          "options": {
+            "Lens Color": "Brown",
+            "Frame": "Gold"
+          },
+          "stock": 18,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_013_02",
+          "sku": "aviator-brown-silver",
+          "options": {
+            "Lens Color": "Brown",
+            "Frame": "Silver"
+          },
+          "stock": 15,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_013_03",
+          "sku": "aviator-green-gold",
+          "options": {
+            "Lens Color": "Green",
+            "Frame": "Gold"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_013_04",
+          "sku": "aviator-green-silver",
+          "options": {
+            "Lens Color": "Green",
+            "Frame": "Silver"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_013_05",
+          "sku": "aviator-blue-mirror-gold",
+          "options": {
+            "Lens Color": "Blue Mirror",
+            "Frame": "Gold"
+          },
+          "stock": 7,
+          "priceOverride": 84.99,
+          "enabled": true
+        },
+        {
+          "id": "var_013_06",
+          "sku": "aviator-blue-mirror-silver",
+          "options": {
+            "Lens Color": "Blue Mirror",
+            "Frame": "Silver"
+          },
+          "stock": 5,
+          "priceOverride": 84.99,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_014",
+      "title": "Waterproof Daypack",
+      "description": "A 20L everyday carry backpack with a waterproof ripstop exterior, padded 15\" laptop sleeve, and hidden back-panel zipper pocket. Sleek, functional, theft-resistant.",
+      "category": "Accessories",
+      "basePrice": 129.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/backpack,waterproof,travel?lock=1401",
+        "https://loremflickr.com/600/600/daypack,bag,outdoor?lock=1402"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_014_1",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Slate Grey",
+            "Midnight Navy"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_014_01",
+          "sku": "waterproof-daypack-black",
+          "options": {
+            "Color": "Black"
+          },
+          "stock": 20,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_014_02",
+          "sku": "waterproof-daypack-slate-grey",
+          "options": {
+            "Color": "Slate Grey"
+          },
+          "stock": 14,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_014_03",
+          "sku": "waterproof-daypack-midnight-navy",
+          "options": {
+            "Color": "Midnight Navy"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_015",
+      "title": "Trail Running Shoes",
+      "description": "Lightweight trail runners with a Vibram outsole, breathable mesh upper, and rock-plate protection. Engineered for technical terrain without sacrificing all-day comfort.",
+      "category": "Footwear",
+      "basePrice": 149.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/running,shoes,sport?lock=1501",
+        "https://loremflickr.com/600/600/trail,sneakers,athletic?lock=1502"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_015_1",
+          "name": "Size",
+          "values": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        },
+        {
+          "id": "vt_015_2",
+          "name": "Color",
+          "values": [
+            "Coral/Grey",
+            "Black/Lime"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_015_01",
+          "sku": "trail-runner-7-coral-grey",
+          "options": {
+            "Size": "7",
+            "Color": "Coral/Grey"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_02",
+          "sku": "trail-runner-7-black-lime",
+          "options": {
+            "Size": "7",
+            "Color": "Black/Lime"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_03",
+          "sku": "trail-runner-8-coral-grey",
+          "options": {
+            "Size": "8",
+            "Color": "Coral/Grey"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_04",
+          "sku": "trail-runner-8-black-lime",
+          "options": {
+            "Size": "8",
+            "Color": "Black/Lime"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_05",
+          "sku": "trail-runner-9-coral-grey",
+          "options": {
+            "Size": "9",
+            "Color": "Coral/Grey"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_06",
+          "sku": "trail-runner-9-black-lime",
+          "options": {
+            "Size": "9",
+            "Color": "Black/Lime"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_07",
+          "sku": "trail-runner-10-coral-grey",
+          "options": {
+            "Size": "10",
+            "Color": "Coral/Grey"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_08",
+          "sku": "trail-runner-10-black-lime",
+          "options": {
+            "Size": "10",
+            "Color": "Black/Lime"
+          },
+          "stock": 11,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_09",
+          "sku": "trail-runner-11-coral-grey",
+          "options": {
+            "Size": "11",
+            "Color": "Coral/Grey"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_10",
+          "sku": "trail-runner-11-black-lime",
+          "options": {
+            "Size": "11",
+            "Color": "Black/Lime"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_11",
+          "sku": "trail-runner-12-coral-grey",
+          "options": {
+            "Size": "12",
+            "Color": "Coral/Grey"
+          },
+          "stock": 2,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_015_12",
+          "sku": "trail-runner-12-black-lime",
+          "options": {
+            "Size": "12",
+            "Color": "Black/Lime"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "prod_016",
+      "title": "Cork Footbed Sandals",
+      "description": "Anatomically contoured cork-latex footbed sandals that mold to your feet over time. Nubuck leather straps and a durable EVA outsole for all-day wear.",
+      "category": "Footwear",
+      "basePrice": 69.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/sandals,summer,footwear?lock=1601",
+        "https://loremflickr.com/600/600/sandals,beach,shoes?lock=1602"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_016_1",
+          "name": "Size",
+          "values": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ]
+        },
+        {
+          "id": "vt_016_2",
+          "name": "Color",
+          "values": [
+            "Tan",
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_016_01",
+          "sku": "cork-sandal-6-tan",
+          "options": {
+            "Size": "6",
+            "Color": "Tan"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_02",
+          "sku": "cork-sandal-6-black",
+          "options": {
+            "Size": "6",
+            "Color": "Black"
+          },
+          "stock": 4,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_03",
+          "sku": "cork-sandal-7-tan",
+          "options": {
+            "Size": "7",
+            "Color": "Tan"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_04",
+          "sku": "cork-sandal-7-black",
+          "options": {
+            "Size": "7",
+            "Color": "Black"
+          },
+          "stock": 7,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_05",
+          "sku": "cork-sandal-8-tan",
+          "options": {
+            "Size": "8",
+            "Color": "Tan"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_06",
+          "sku": "cork-sandal-8-black",
+          "options": {
+            "Size": "8",
+            "Color": "Black"
+          },
+          "stock": 10,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_07",
+          "sku": "cork-sandal-9-tan",
+          "options": {
+            "Size": "9",
+            "Color": "Tan"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_08",
+          "sku": "cork-sandal-9-black",
+          "options": {
+            "Size": "9",
+            "Color": "Black"
+          },
+          "stock": 8,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_09",
+          "sku": "cork-sandal-10-tan",
+          "options": {
+            "Size": "10",
+            "Color": "Tan"
+          },
+          "stock": 6,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_10",
+          "sku": "cork-sandal-10-black",
+          "options": {
+            "Size": "10",
+            "Color": "Black"
+          },
+          "stock": 5,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_11",
+          "sku": "cork-sandal-11-tan",
+          "options": {
+            "Size": "11",
+            "Color": "Tan"
+          },
+          "stock": 3,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_016_12",
+          "sku": "cork-sandal-11-black",
+          "options": {
+            "Size": "11",
+            "Color": "Black"
+          },
+          "stock": 0,
+          "priceOverride": null,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prod_017",
+      "title": "Ribbed Crew Socks 3-Pack",
+      "description": "Everyday crew socks knitted from a cotton-nylon blend with cushioned sole and arch support. Ribbed cuff stays put without cutting off circulation. Comes in a set of three.",
+      "category": "Accessories",
+      "basePrice": 19.99,
+      "status": "active",
+      "images": [
+        "https://loremflickr.com/600/600/socks,cotton,fashion?lock=1701"
+      ],
+      "variantTypes": [
+        {
+          "id": "vt_017_1",
+          "name": "Size",
+          "values": [
+            "S/M",
+            "L/XL"
+          ]
+        },
+        {
+          "id": "vt_017_2",
+          "name": "Color",
+          "values": [
+            "White/Grey/Black",
+            "Navy/Olive/Burgundy"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "var_017_01",
+          "sku": "crew-socks-sm-classic",
+          "options": {
+            "Size": "S/M",
+            "Color": "White/Grey/Black"
+          },
+          "stock": 40,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_017_02",
+          "sku": "crew-socks-sm-earthy",
+          "options": {
+            "Size": "S/M",
+            "Color": "Navy/Olive/Burgundy"
+          },
+          "stock": 35,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_017_03",
+          "sku": "crew-socks-lxl-classic",
+          "options": {
+            "Size": "L/XL",
+            "Color": "White/Grey/Black"
+          },
+          "stock": 38,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_017_04",
+          "sku": "crew-socks-lxl-earthy",
+          "options": {
+            "Size": "L/XL",
+            "Color": "Navy/Olive/Burgundy"
+          },
+          "stock": 30,
+          "priceOverride": null,
+          "enabled": true
+        }
       ]
     },
     {
@@ -201,18 +2190,71 @@
       "basePrice": 24.99,
       "status": "inactive",
       "images": [
-        "https://picsum.photos/seed/beanie-cream/600/600"
+        "https://loremflickr.com/600/600/beanie,hat,winter?lock=1801"
       ],
       "variantTypes": [
-        { "id": "vt_008_1", "name": "Color", "values": ["Cream", "Burgundy", "Forest Green", "Slate"] }
+        {
+          "id": "vt_008_1",
+          "name": "Color",
+          "values": [
+            "Cream",
+            "Burgundy",
+            "Forest Green",
+            "Slate"
+          ]
+        }
       ],
       "variants": [
-        { "id": "var_008_01", "sku": "merino-beanie-cream", "options": { "Color": "Cream" }, "stock": 25, "priceOverride": null, "enabled": true },
-        { "id": "var_008_02", "sku": "merino-beanie-burgundy", "options": { "Color": "Burgundy" }, "stock": 18, "priceOverride": null, "enabled": true },
-        { "id": "var_008_03", "sku": "merino-beanie-forest-green", "options": { "Color": "Forest Green" }, "stock": 12, "priceOverride": null, "enabled": true },
-        { "id": "var_008_04", "sku": "merino-beanie-slate", "options": { "Color": "Slate" }, "stock": 9, "priceOverride": null, "enabled": true }
+        {
+          "id": "var_008_01",
+          "sku": "merino-beanie-cream",
+          "options": {
+            "Color": "Cream"
+          },
+          "stock": 25,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_008_02",
+          "sku": "merino-beanie-burgundy",
+          "options": {
+            "Color": "Burgundy"
+          },
+          "stock": 18,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_008_03",
+          "sku": "merino-beanie-forest-green",
+          "options": {
+            "Color": "Forest Green"
+          },
+          "stock": 12,
+          "priceOverride": null,
+          "enabled": true
+        },
+        {
+          "id": "var_008_04",
+          "sku": "merino-beanie-slate",
+          "options": {
+            "Color": "Slate"
+          },
+          "stock": 9,
+          "priceOverride": null,
+          "enabled": true
+        }
       ]
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "sMEC-Akjokg",
+      "productId": "prod_002",
+      "variantId": "var_002_03",
+      "quantity": 2
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
