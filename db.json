@@ -1,0 +1,218 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "title": "Classic Crew Tee",
+      "description": "A timeless crew-neck t-shirt crafted from 100% organic cotton. Lightweight, breathable, and designed to last through countless washes while keeping its shape.",
+      "category": "Clothing",
+      "basePrice": 29.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/tee-white/600/600",
+        "https://picsum.photos/seed/tee-back/600/600",
+        "https://picsum.photos/seed/tee-detail/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_001_1", "name": "Size", "values": ["XS", "S", "M", "L", "XL"] },
+        { "id": "vt_001_2", "name": "Color", "values": ["White", "Black", "Navy"] }
+      ],
+      "variants": [
+        { "id": "var_001_01", "sku": "classic-crew-tee-xs-white", "options": { "Size": "XS", "Color": "White" }, "stock": 12, "priceOverride": null, "enabled": true },
+        { "id": "var_001_02", "sku": "classic-crew-tee-xs-black", "options": { "Size": "XS", "Color": "Black" }, "stock": 8, "priceOverride": null, "enabled": true },
+        { "id": "var_001_03", "sku": "classic-crew-tee-xs-navy", "options": { "Size": "XS", "Color": "Navy" }, "stock": 0, "priceOverride": null, "enabled": true },
+        { "id": "var_001_04", "sku": "classic-crew-tee-s-white", "options": { "Size": "S", "Color": "White" }, "stock": 20, "priceOverride": null, "enabled": true },
+        { "id": "var_001_05", "sku": "classic-crew-tee-s-black", "options": { "Size": "S", "Color": "Black" }, "stock": 15, "priceOverride": null, "enabled": true },
+        { "id": "var_001_06", "sku": "classic-crew-tee-s-navy", "options": { "Size": "S", "Color": "Navy" }, "stock": 10, "priceOverride": null, "enabled": true },
+        { "id": "var_001_07", "sku": "classic-crew-tee-m-white", "options": { "Size": "M", "Color": "White" }, "stock": 25, "priceOverride": null, "enabled": true },
+        { "id": "var_001_08", "sku": "classic-crew-tee-m-black", "options": { "Size": "M", "Color": "Black" }, "stock": 30, "priceOverride": null, "enabled": true },
+        { "id": "var_001_09", "sku": "classic-crew-tee-m-navy", "options": { "Size": "M", "Color": "Navy" }, "stock": 18, "priceOverride": null, "enabled": true },
+        { "id": "var_001_10", "sku": "classic-crew-tee-l-white", "options": { "Size": "L", "Color": "White" }, "stock": 22, "priceOverride": null, "enabled": true },
+        { "id": "var_001_11", "sku": "classic-crew-tee-l-black", "options": { "Size": "L", "Color": "Black" }, "stock": 28, "priceOverride": null, "enabled": true },
+        { "id": "var_001_12", "sku": "classic-crew-tee-l-navy", "options": { "Size": "L", "Color": "Navy" }, "stock": 5, "priceOverride": null, "enabled": true },
+        { "id": "var_001_13", "sku": "classic-crew-tee-xl-white", "options": { "Size": "XL", "Color": "White" }, "stock": 14, "priceOverride": null, "enabled": true },
+        { "id": "var_001_14", "sku": "classic-crew-tee-xl-black", "options": { "Size": "XL", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": false },
+        { "id": "var_001_15", "sku": "classic-crew-tee-xl-navy", "options": { "Size": "XL", "Color": "Navy" }, "stock": 7, "priceOverride": null, "enabled": true }
+      ]
+    },
+    {
+      "id": "prod_002",
+      "title": "Urban Zip Hoodie",
+      "description": "A full-zip hoodie with a brushed fleece interior and kangaroo pocket. Perfect for layering — the go-to piece for cool mornings and late nights.",
+      "category": "Clothing",
+      "basePrice": 74.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/hoodie-grey/600/600",
+        "https://picsum.photos/seed/hoodie-back/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_002_1", "name": "Size", "values": ["S", "M", "L", "XL", "XXL"] },
+        { "id": "vt_002_2", "name": "Color", "values": ["Charcoal", "Forest Green"] }
+      ],
+      "variants": [
+        { "id": "var_002_01", "sku": "urban-zip-hoodie-s-charcoal", "options": { "Size": "S", "Color": "Charcoal" }, "stock": 10, "priceOverride": null, "enabled": true },
+        { "id": "var_002_02", "sku": "urban-zip-hoodie-s-forest-green", "options": { "Size": "S", "Color": "Forest Green" }, "stock": 6, "priceOverride": null, "enabled": true },
+        { "id": "var_002_03", "sku": "urban-zip-hoodie-m-charcoal", "options": { "Size": "M", "Color": "Charcoal" }, "stock": 14, "priceOverride": null, "enabled": true },
+        { "id": "var_002_04", "sku": "urban-zip-hoodie-m-forest-green", "options": { "Size": "M", "Color": "Forest Green" }, "stock": 9, "priceOverride": null, "enabled": true },
+        { "id": "var_002_05", "sku": "urban-zip-hoodie-l-charcoal", "options": { "Size": "L", "Color": "Charcoal" }, "stock": 20, "priceOverride": null, "enabled": true },
+        { "id": "var_002_06", "sku": "urban-zip-hoodie-l-forest-green", "options": { "Size": "L", "Color": "Forest Green" }, "stock": 0, "priceOverride": null, "enabled": true },
+        { "id": "var_002_07", "sku": "urban-zip-hoodie-xl-charcoal", "options": { "Size": "XL", "Color": "Charcoal" }, "stock": 12, "priceOverride": 79.99, "enabled": true },
+        { "id": "var_002_08", "sku": "urban-zip-hoodie-xl-forest-green", "options": { "Size": "XL", "Color": "Forest Green" }, "stock": 4, "priceOverride": 79.99, "enabled": true },
+        { "id": "var_002_09", "sku": "urban-zip-hoodie-xxl-charcoal", "options": { "Size": "XXL", "Color": "Charcoal" }, "stock": 3, "priceOverride": 84.99, "enabled": true },
+        { "id": "var_002_10", "sku": "urban-zip-hoodie-xxl-forest-green", "options": { "Size": "XXL", "Color": "Forest Green" }, "stock": 0, "priceOverride": 84.99, "enabled": false }
+      ]
+    },
+    {
+      "id": "prod_003",
+      "title": "Slim Chino Pants",
+      "description": "Tailored slim-fit chinos with a hint of stretch. A versatile wardrobe staple that transitions effortlessly from the office to weekend outings.",
+      "category": "Clothing",
+      "basePrice": 59.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/chino-tan/600/600",
+        "https://picsum.photos/seed/chino-navy/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_003_1", "name": "Waist", "values": ["30", "32", "34", "36"] },
+        { "id": "vt_003_2", "name": "Color", "values": ["Tan", "Navy", "Olive"] }
+      ],
+      "variants": [
+        { "id": "var_003_01", "sku": "slim-chino-30-tan", "options": { "Waist": "30", "Color": "Tan" }, "stock": 8, "priceOverride": null, "enabled": true },
+        { "id": "var_003_02", "sku": "slim-chino-30-navy", "options": { "Waist": "30", "Color": "Navy" }, "stock": 6, "priceOverride": null, "enabled": true },
+        { "id": "var_003_03", "sku": "slim-chino-30-olive", "options": { "Waist": "30", "Color": "Olive" }, "stock": 4, "priceOverride": null, "enabled": true },
+        { "id": "var_003_04", "sku": "slim-chino-32-tan", "options": { "Waist": "32", "Color": "Tan" }, "stock": 15, "priceOverride": null, "enabled": true },
+        { "id": "var_003_05", "sku": "slim-chino-32-navy", "options": { "Waist": "32", "Color": "Navy" }, "stock": 18, "priceOverride": null, "enabled": true },
+        { "id": "var_003_06", "sku": "slim-chino-32-olive", "options": { "Waist": "32", "Color": "Olive" }, "stock": 11, "priceOverride": null, "enabled": true },
+        { "id": "var_003_07", "sku": "slim-chino-34-tan", "options": { "Waist": "34", "Color": "Tan" }, "stock": 12, "priceOverride": null, "enabled": true },
+        { "id": "var_003_08", "sku": "slim-chino-34-navy", "options": { "Waist": "34", "Color": "Navy" }, "stock": 9, "priceOverride": null, "enabled": true },
+        { "id": "var_003_09", "sku": "slim-chino-34-olive", "options": { "Waist": "34", "Color": "Olive" }, "stock": 0, "priceOverride": null, "enabled": true },
+        { "id": "var_003_10", "sku": "slim-chino-36-tan", "options": { "Waist": "36", "Color": "Tan" }, "stock": 7, "priceOverride": null, "enabled": true },
+        { "id": "var_003_11", "sku": "slim-chino-36-navy", "options": { "Waist": "36", "Color": "Navy" }, "stock": 5, "priceOverride": null, "enabled": true },
+        { "id": "var_003_12", "sku": "slim-chino-36-olive", "options": { "Waist": "36", "Color": "Olive" }, "stock": 0, "priceOverride": null, "enabled": false }
+      ]
+    },
+    {
+      "id": "prod_004",
+      "title": "Leather Bifold Wallet",
+      "description": "Full-grain leather bifold wallet with RFID blocking technology. Slim profile, 6 card slots, and a cash compartment. Ages beautifully with use.",
+      "category": "Accessories",
+      "basePrice": 49.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/wallet-brown/600/600",
+        "https://picsum.photos/seed/wallet-open/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_004_1", "name": "Color", "values": ["Cognac", "Black", "Dark Brown"] }
+      ],
+      "variants": [
+        { "id": "var_004_01", "sku": "leather-bifold-wallet-cognac", "options": { "Color": "Cognac" }, "stock": 22, "priceOverride": null, "enabled": true },
+        { "id": "var_004_02", "sku": "leather-bifold-wallet-black", "options": { "Color": "Black" }, "stock": 30, "priceOverride": null, "enabled": true },
+        { "id": "var_004_03", "sku": "leather-bifold-wallet-dark-brown", "options": { "Color": "Dark Brown" }, "stock": 0, "priceOverride": null, "enabled": true }
+      ]
+    },
+    {
+      "id": "prod_005",
+      "title": "Canvas Tote Bag",
+      "description": "Heavy-duty 12oz canvas tote with reinforced stitching and natural rope handles. Spacious enough for groceries, books, or a day at the beach.",
+      "category": "Accessories",
+      "basePrice": 34.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/tote-natural/600/600",
+        "https://picsum.photos/seed/tote-detail/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_005_1", "name": "Size", "values": ["Standard", "Large"] },
+        { "id": "vt_005_2", "name": "Color", "values": ["Natural", "Black"] }
+      ],
+      "variants": [
+        { "id": "var_005_01", "sku": "canvas-tote-standard-natural", "options": { "Size": "Standard", "Color": "Natural" }, "stock": 40, "priceOverride": null, "enabled": true },
+        { "id": "var_005_02", "sku": "canvas-tote-standard-black", "options": { "Size": "Standard", "Color": "Black" }, "stock": 35, "priceOverride": null, "enabled": true },
+        { "id": "var_005_03", "sku": "canvas-tote-large-natural", "options": { "Size": "Large", "Color": "Natural" }, "stock": 20, "priceOverride": 39.99, "enabled": true },
+        { "id": "var_005_04", "sku": "canvas-tote-large-black", "options": { "Size": "Large", "Color": "Black" }, "stock": 3, "priceOverride": 39.99, "enabled": true }
+      ]
+    },
+    {
+      "id": "prod_006",
+      "title": "Low-Top Leather Sneakers",
+      "description": "Minimalist low-top sneakers with a full-grain leather upper, cushioned insole, and vulcanized rubber sole. Clean, versatile, and built to last.",
+      "category": "Footwear",
+      "basePrice": 119.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/sneaker-white/600/600",
+        "https://picsum.photos/seed/sneaker-side/600/600",
+        "https://picsum.photos/seed/sneaker-sole/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_006_1", "name": "Size", "values": ["7", "8", "9", "10", "11", "12"] },
+        { "id": "vt_006_2", "name": "Color", "values": ["White", "Black"] }
+      ],
+      "variants": [
+        { "id": "var_006_01", "sku": "low-top-leather-7-white", "options": { "Size": "7", "Color": "White" }, "stock": 5, "priceOverride": null, "enabled": true },
+        { "id": "var_006_02", "sku": "low-top-leather-7-black", "options": { "Size": "7", "Color": "Black" }, "stock": 4, "priceOverride": null, "enabled": true },
+        { "id": "var_006_03", "sku": "low-top-leather-8-white", "options": { "Size": "8", "Color": "White" }, "stock": 8, "priceOverride": null, "enabled": true },
+        { "id": "var_006_04", "sku": "low-top-leather-8-black", "options": { "Size": "8", "Color": "Black" }, "stock": 7, "priceOverride": null, "enabled": true },
+        { "id": "var_006_05", "sku": "low-top-leather-9-white", "options": { "Size": "9", "Color": "White" }, "stock": 12, "priceOverride": null, "enabled": true },
+        { "id": "var_006_06", "sku": "low-top-leather-9-black", "options": { "Size": "9", "Color": "Black" }, "stock": 10, "priceOverride": null, "enabled": true },
+        { "id": "var_006_07", "sku": "low-top-leather-10-white", "options": { "Size": "10", "Color": "White" }, "stock": 15, "priceOverride": null, "enabled": true },
+        { "id": "var_006_08", "sku": "low-top-leather-10-black", "options": { "Size": "10", "Color": "Black" }, "stock": 13, "priceOverride": null, "enabled": true },
+        { "id": "var_006_09", "sku": "low-top-leather-11-white", "options": { "Size": "11", "Color": "White" }, "stock": 6, "priceOverride": null, "enabled": true },
+        { "id": "var_006_10", "sku": "low-top-leather-11-black", "options": { "Size": "11", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": true },
+        { "id": "var_006_11", "sku": "low-top-leather-12-white", "options": { "Size": "12", "Color": "White" }, "stock": 3, "priceOverride": null, "enabled": true },
+        { "id": "var_006_12", "sku": "low-top-leather-12-black", "options": { "Size": "12", "Color": "Black" }, "stock": 0, "priceOverride": null, "enabled": false }
+      ]
+    },
+    {
+      "id": "prod_007",
+      "title": "Wool-Blend Chelsea Boot",
+      "description": "A sophisticated Chelsea boot with a wool-blend upper, elastic side panels, and a stacked leather heel. Designed to elevate any outfit from casual to smart-casual.",
+      "category": "Footwear",
+      "basePrice": 189.99,
+      "status": "active",
+      "images": [
+        "https://picsum.photos/seed/chelsea-camel/600/600",
+        "https://picsum.photos/seed/chelsea-side/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_007_1", "name": "Size", "values": ["7", "8", "9", "10", "11"] },
+        { "id": "vt_007_2", "name": "Color", "values": ["Camel", "Black"] }
+      ],
+      "variants": [
+        { "id": "var_007_01", "sku": "wool-chelsea-7-camel", "options": { "Size": "7", "Color": "Camel" }, "stock": 3, "priceOverride": null, "enabled": true },
+        { "id": "var_007_02", "sku": "wool-chelsea-7-black", "options": { "Size": "7", "Color": "Black" }, "stock": 2, "priceOverride": null, "enabled": true },
+        { "id": "var_007_03", "sku": "wool-chelsea-8-camel", "options": { "Size": "8", "Color": "Camel" }, "stock": 6, "priceOverride": null, "enabled": true },
+        { "id": "var_007_04", "sku": "wool-chelsea-8-black", "options": { "Size": "8", "Color": "Black" }, "stock": 5, "priceOverride": null, "enabled": true },
+        { "id": "var_007_05", "sku": "wool-chelsea-9-camel", "options": { "Size": "9", "Color": "Camel" }, "stock": 8, "priceOverride": null, "enabled": true },
+        { "id": "var_007_06", "sku": "wool-chelsea-9-black", "options": { "Size": "9", "Color": "Black" }, "stock": 7, "priceOverride": null, "enabled": true },
+        { "id": "var_007_07", "sku": "wool-chelsea-10-camel", "options": { "Size": "10", "Color": "Camel" }, "stock": 10, "priceOverride": null, "enabled": true },
+        { "id": "var_007_08", "sku": "wool-chelsea-10-black", "options": { "Size": "10", "Color": "Black" }, "stock": 9, "priceOverride": null, "enabled": true },
+        { "id": "var_007_09", "sku": "wool-chelsea-11-camel", "options": { "Size": "11", "Color": "Camel" }, "stock": 0, "priceOverride": null, "enabled": true },
+        { "id": "var_007_10", "sku": "wool-chelsea-11-black", "options": { "Size": "11", "Color": "Black" }, "stock": 4, "priceOverride": null, "enabled": true }
+      ]
+    },
+    {
+      "id": "prod_008",
+      "title": "Merino Wool Beanie",
+      "description": "A cozy ribbed beanie knitted from 100% merino wool. Naturally temperature-regulating, itch-free, and compact enough to stuff in any pocket.",
+      "category": "Accessories",
+      "basePrice": 24.99,
+      "status": "inactive",
+      "images": [
+        "https://picsum.photos/seed/beanie-cream/600/600"
+      ],
+      "variantTypes": [
+        { "id": "vt_008_1", "name": "Color", "values": ["Cream", "Burgundy", "Forest Green", "Slate"] }
+      ],
+      "variants": [
+        { "id": "var_008_01", "sku": "merino-beanie-cream", "options": { "Color": "Cream" }, "stock": 25, "priceOverride": null, "enabled": true },
+        { "id": "var_008_02", "sku": "merino-beanie-burgundy", "options": { "Color": "Burgundy" }, "stock": 18, "priceOverride": null, "enabled": true },
+        { "id": "var_008_03", "sku": "merino-beanie-forest-green", "options": { "Color": "Forest Green" }, "stock": 12, "priceOverride": null, "enabled": true },
+        { "id": "var_008_04", "sku": "merino-beanie-slate", "options": { "Color": "Slate" }, "stock": 9, "priceOverride": null, "enabled": true }
+      ]
+    }
+  ],
+  "cart": []
+}
